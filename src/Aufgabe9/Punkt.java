@@ -3,11 +3,38 @@ package Aufgabe9;
 public class Punkt {
     public double x;
     public double y;
+
+    public double z;
+
     public Punkt p;
 
     public Punkt(double a, double b){
         x = a;
         y = b;
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
+
+    public double getZ() {
+        return z;
+    }
+
+    public void setZ(double z) {
+        this.z = z;
     }
     public double RueckgabeX() {
         return x;
@@ -28,6 +55,25 @@ public class Punkt {
         return y;
         }
 
+    public void addPunkt(double x, Double y){
+        this.setX(this.getX() +x);
+        this.setY(this.getY() +y);
+    }
+
+    public void subtractPunkt(double x, Double y){
+        this.setX(this.getX() -x);
+        this.setY(this.getY() -y);
+     }
+
+     public  void multiplyPunkt(double multiplier){
+        this.setX(this.getX() * multiplier);
+        this.setY(this.getY() * multiplier);
+     }
+
+     public void dividePunkt(Double dividieren){
+        this.setX(this.getX() / dividieren);
+        this.setY(this.getY() / dividieren);
+     }
 }
 /*
     //Felder
