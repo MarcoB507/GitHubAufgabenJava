@@ -6,10 +6,11 @@ import org.junit.jupiter.api.Test;
 
 import java.io.Console;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PunktTest {
 
+    private Punkt p1, p2;
     @BeforeEach
     public void initPoints(){
         Punkt p1 = new Punkt(2.0, 6.0);
@@ -28,9 +29,26 @@ public class PunktTest {
     }*/
     @Test
     public void addition() {
-       //Punkt p3  = p1.addPunkt(p2);
+        p1.addPunkt(4.0, 8.0);
+        assertEquals(8, p1.getX(), 0.01 );
+        assertEquals(12, p1.getY(),  0.01);
     }
 
+
+    @Test
+    public void subrahieren(){
+
+    }
+
+    @Test
+    public void multiplizieren(){
+
+    }
+
+    @Test
+    public void dividieren(){
+
+    }
 }
 /*
     int x = 6;

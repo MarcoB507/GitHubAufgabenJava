@@ -4,13 +4,9 @@ public class Punkt {
     public double x;
     public double y;
 
-    public double z;
-
-    public Punkt p;
-
-    public Punkt(double a, double b){
-        x = a;
-        y = b;
+    public Punkt(double x, double y) {
+        this.x = x;
+        this.y = y;
     }
 
     public double getX() {
@@ -29,38 +25,12 @@ public class Punkt {
         this.y = y;
     }
 
-    public double getZ() {
-        return z;
-    }
-
-    public void setZ(double z) {
-        this.z = z;
-    }
-    public double RueckgabeX() {
-        return x;
-        }
-     public double RueckgabeY(){
-        return y;
-        }
-
-
-     public Punkt(Punkt p){
-        x = p.x;
-        y = p.y;
-        }
-     public double Rueckgabe3(){
-         return x;
-     }
-     public double Rueckgabe4(){
-        return y;
-        }
-
-    public void addPunkt(double x, Double y){
+    public void addPunkt(double x, double y){
         this.setX(this.getX() +x);
         this.setY(this.getY() +y);
     }
 
-    public void subtractPunkt(double x, Double y){
+    public void subtractPunkt(double x, double y){
         this.setX(this.getX() -x);
         this.setY(this.getY() -y);
      }
@@ -74,6 +44,8 @@ public class Punkt {
         this.setX(this.getX() / dividieren);
         this.setY(this.getY() / dividieren);
      }
+
+
 }
 /*
     //Felder
