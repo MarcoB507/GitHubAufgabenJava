@@ -8,22 +8,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RechteckTest {
 
     @Test
-    public double testeRUmfang() {
+    public void testeRUmfang() {
 
         Rechteck R = new Rechteck(2, 3);
 
         double ergebnisUmfang = R.getUmfang();
-        assertEquals(14, ergebnisUmfang, 0.01);
-        return ergebnisUmfang;
+        assertEquals(10, ergebnisUmfang, 0.01);
     }
 
     @Test
-    public double testeRflaeche(){
+    public void testeRflaeche(){
 
         Rechteck R2 = new Rechteck(3, 4);
 
         double ergebnisFlaeche = R2.getFlaeche();
         assertEquals(12, ergebnisFlaeche, 0.01);
-        return ergebnisFlaeche;
     }
 }
