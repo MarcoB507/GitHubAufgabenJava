@@ -1,6 +1,6 @@
 package aufgabe11;
 
-public class Dreieck {
+public class Dreieck implements GeometrischesObjekt {
 
     //Felder
     double umfang, flaeche, a, b, c, g, h;
