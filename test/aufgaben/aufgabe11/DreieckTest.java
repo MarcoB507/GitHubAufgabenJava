@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DreieckTest {
 
+    //Umfang des Dreiecks berechnen
     @Test
     public void testeDUmfang() {
 
@@ -17,6 +18,7 @@ public class DreieckTest {
         assertEquals(9, ergebnisUmfang, 0.02);
     }
 
+    //Flächeninhalt des Dreiecks berechnen
     @Test
     public void testeDflaeche(){
 

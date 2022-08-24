@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RechteckTest {
 
+    //Umfang des Rechtecks berechnen
     @Test
     public void testeRUmfang() {
 
@@ -16,6 +17,7 @@ public class RechteckTest {
         assertEquals(10, ergebnisUmfang, 0.01);
     }
 
+    //Flächeninhalt des Rechtecks berechnen
     @Test
     public void testeRflaeche(){
 

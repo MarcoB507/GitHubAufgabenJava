@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class KreisTest {
+
+    //Umfang vom Kreis berechnen
     @Test
     public void testeKUmfang() {
 
@@ -16,6 +18,7 @@ public class KreisTest {
         assertEquals(12.56, ergebnisUmfang, 0.01);
     }
 
+    //Flächeninhalt vom Kreis berechnen
     @Test
     public void testeKflaeche(){
 

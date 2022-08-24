@@ -1,8 +1,11 @@
 package aufgabe11;
 
 public class Rechteck implements GeometrischesObjekt{
+
+    //Felder
     double umfang, flaeche, a, b;
 
+    //Standardkonstruktor
     public Rechteck(){
         //umfang = 0.0;
         //flaeche = 0.0;
@@ -10,12 +13,15 @@ public class Rechteck implements GeometrischesObjekt{
         b = 0.0;
     }
 
+    //Parameterkonstruktor
     public Rechteck(/*double umfang, double flaeche,*/ double a, double b) {
         //this.umfang = umfang;
         //this.flaeche = flaeche;
         this.a = a;
         this.b = b;
     }
+
+    //get- und set-Methoden
 
     public void setUmfang(double umfang) {
         this.umfang = umfang;
@@ -41,6 +47,7 @@ public class Rechteck implements GeometrischesObjekt{
         this.b = b;
     }
 
+    //Methoden
 
     public double getUmfang(){
         umfang = 2 * a + 2 * b;

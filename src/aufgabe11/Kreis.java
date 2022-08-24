@@ -1,9 +1,11 @@
 package aufgabe11;
 
 public class Kreis implements GeometrischesObjekt {
+
+    //Felder
     public double umfang, flaeche, radius, pi;
 
-
+    //Standardkonstruktor
     public Kreis(){
         //umfang = 0.0;
         //flaeche = 0.0;
@@ -11,6 +13,8 @@ public class Kreis implements GeometrischesObjekt {
         pi = 3.14159265359;
     }
 
+
+    //Parameterkonstruktor
     public Kreis(/*double umfang, double flaeche,*/ double radius, double pi) {
         //this.umfang = umfang;
         //this.flaeche = flaeche;
@@ -18,8 +22,7 @@ public class Kreis implements GeometrischesObjekt {
         this.pi = pi;
     }
 
-
-
+    //get-und set-Methoden
 
     public void setUmfang(double umfang) {
         this.umfang = umfang;
@@ -47,6 +50,7 @@ public class Kreis implements GeometrischesObjekt {
         this.pi = pi;
     }
 
+    //Methoden
 
     public double getUmfang(){
         umfang = 2 * radius * pi;
