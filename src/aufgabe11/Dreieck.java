@@ -1,9 +1,9 @@
 package aufgabe11;
 
-public class Dreieck implements GeometrischesObjekt {
+public class Dreieck extends GeometrischesObjekt {
 
     //Felder
-    double umfang, flaeche, a, b, c, g, h;
+    double /*umfang, flaeche,*/ a, b, c, g, h;
 
     //Standardkonstruktor
     public Dreieck(){
@@ -32,7 +32,6 @@ public class Dreieck implements GeometrischesObjekt {
     public void setUmfang(double umfang) {
         this.umfang = umfang;
     }
-
 
     public void setFlaeche(double flaeche) {
         this.flaeche = flaeche;
@@ -80,11 +79,13 @@ public class Dreieck implements GeometrischesObjekt {
 
     //Methoden
 
+    @Override
     public double getUmfang(){
         umfang = a + b + c;
         return umfang;
     }
 
+    @Override
     public double getFlaeche(){
         flaeche = 0.5 * g * h;
         return flaeche;

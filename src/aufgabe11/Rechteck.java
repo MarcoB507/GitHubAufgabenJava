@@ -1,9 +1,9 @@
 package aufgabe11;
 
-public class Rechteck implements GeometrischesObjekt{
+public class Rechteck extends GeometrischesObjekt{
 
     //Felder
-    double umfang, flaeche, a, b;
+    double /*umfang, flaeche,*/ a, b;
 
     //Standardkonstruktor
     public Rechteck(){
@@ -49,11 +49,12 @@ public class Rechteck implements GeometrischesObjekt{
 
     //Methoden
 
+    @Override
     public double getUmfang(){
         umfang = 2 * a + 2 * b;
         return umfang;
     }
-
+    @Override
     public double getFlaeche(){
         flaeche = a * b;
         return flaeche;

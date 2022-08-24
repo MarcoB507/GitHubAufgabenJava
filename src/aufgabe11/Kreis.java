@@ -1,9 +1,9 @@
 package aufgabe11;
 
-public class Kreis implements GeometrischesObjekt {
+public class Kreis extends GeometrischesObjekt {
 
     //Felder
-    public double umfang, flaeche, radius, pi;
+    public double /*umfang, flaeche,*/ radius, pi;
 
     //Standardkonstruktor
     public Kreis(){
@@ -52,11 +52,13 @@ public class Kreis implements GeometrischesObjekt {
 
     //Methoden
 
+    @Override
     public double getUmfang(){
         umfang = 2 * radius * pi;
         return umfang;
     }
 
+    @Override
     public double getFlaeche(){
             flaeche = pi * (radius * radius);
             return flaeche;
