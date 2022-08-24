@@ -60,7 +60,11 @@ public class Person {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
-        return Objects.equals(vorname, person.vorname) && Objects.equals(nachname, person.nachname) && Objects.equals(alter, person.alter) && Objects.equals(groesse, person.groesse) && Objects.equals(gewicht, person.gewicht);
+        return Objects.equals(vorname, person.vorname) &&
+                Objects.equals(nachname, person.nachname) &&
+                Objects.equals(alter, person.alter) &&
+                Objects.equals(groesse, person.groesse) &&
+                Objects.equals(gewicht, person.gewicht);
     }
 
 }
