@@ -8,6 +8,8 @@ public class GenericArrayWrapper <T>{
 
     private int elementCount;
 
+    int object;
+
     public GenericArrayWrapper() {
         array = (T[]) new Object[2];
         elementCount = 0;
@@ -17,6 +19,8 @@ public class GenericArrayWrapper <T>{
         array = (T[]) new Object[zahlengroesse];
         elementCount = 0;
     }
+
+
 
     @Override
     public String toString() {

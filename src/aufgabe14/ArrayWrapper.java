@@ -16,6 +16,8 @@ public class ArrayWrapper {
         elementCount = 0;
     }
 
+
+
     public ArrayWrapper(int zahlengroesse) {
         zahlen = new int[zahlengroesse];
         elementCount = 0;

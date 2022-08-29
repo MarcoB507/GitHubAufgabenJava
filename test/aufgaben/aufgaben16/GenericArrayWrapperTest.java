@@ -12,7 +12,5 @@ public class GenericArrayWrapperTest {
         GenericArrayWrapper g = new GenericArrayWrapper();
 
 
-
-
     }
 }
