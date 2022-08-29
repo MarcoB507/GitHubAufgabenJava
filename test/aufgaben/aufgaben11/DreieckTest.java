@@ -1,4 +1,4 @@
-package aufgaben.aufgabe11;
+package aufgaben.aufgaben11;
 
 import aufgabe11.Dreieck;
 import org.junit.jupiter.api.Test;

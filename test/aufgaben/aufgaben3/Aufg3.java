@@ -1,4 +1,4 @@
-package aufgaben.aufgabe3;
+package aufgaben.aufgaben3;
 
 
 import aufgabe3.Aufgabe3;

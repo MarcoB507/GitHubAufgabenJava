@@ -1,4 +1,4 @@
-package aufgaben.aufgabe18;
+package aufgaben.aufgaben18;
 
 import aufgabe18.Person;
 import org.junit.jupiter.api.Test;

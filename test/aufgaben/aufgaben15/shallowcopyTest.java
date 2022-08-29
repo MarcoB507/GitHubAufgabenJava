@@ -1,10 +1,8 @@
-package aufgaben.aufgabe15;
+package aufgaben.aufgaben15;
 
 import aufgabe15.Adresse;
 import aufgabe15.Person;
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertNotSame;
 
